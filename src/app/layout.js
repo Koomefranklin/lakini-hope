@@ -14,12 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='w-screen grid uppercase text-xl bg-yellow-900 sticky-0'>
+        <div className='w-screen grid uppercase bg-yellow-900 sticky-0 grid-flow-col px-2'>
           <div className='grid place-self-start'>
             <div className='font-bold text-2xl'>lakini Hope</div>
-            <div className='text-lg'>play with us</div>
+            <div className='text-sm'>play with us</div>
           </div>
-          <div className='place-self-end grid gap-4 grid-flow-col'>
+          <div className='justify-content-right grid gap-4 grid-flow-col'>
             <Link
             href='/'
             title='Home'
@@ -43,13 +43,14 @@ export default function RootLayout({ children }) {
         </div>
         <div>{children}</div>
          {/* footer */}
-        <footer className='h-fit w-full'>
+        <footer className='h-fit w-full grid grid-flow-col'>
           <div id='socials' className='grid grid-flow-col justify-self-start text-lg lg:text-2xl gap-4'>
             <Link href='#' className='p-2'><FaFacebookF /></Link>
             <Link href='#' className='p-2'><FaXTwitter /></Link>
             <Link href='#' className='p-2'><FaInstagram /></Link>
             <Link href='#' className='p-2'><FaYoutube /></Link>
           </div>
+          <div className='capitalize'>&copy; 2024 all rights reserved</div>
         </footer>
       </body>
     </html>
