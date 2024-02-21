@@ -22,7 +22,7 @@ export default function Home() {
         In exercitation veniam eiusmod reprehenderit voluptate reprehenderit ex do tempor cillum dolore. Pariatur elit fugiat adipisicing ipsum amet sint enim nostrud enim officia ad reprehenderit. Excepteur sint cillum consectetur minim sit. Sint fugiat Lorem est est. Non eu velit consequat proident culpa anim ex. Deserunt irure officia sint pariatur. Magna voluptate deserunt est non sit nostrud voluptate excepteur do qui.</div>
         <div className='grid pt-4 px-2'>
           <div className='uppercase place-self-center'>team</div>
-          <div className='grid grid-flow-col gap-2'>
+          <div className='grid lg:grid-flow-col gap-2'>
             <div className='grid rounded-full'>
               <Image
               src='/lady2.jpeg'
