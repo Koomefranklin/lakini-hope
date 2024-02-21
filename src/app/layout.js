@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { FaFacebookF, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import './globals.css'
 import { Inter } from 'next/font/google'
 
