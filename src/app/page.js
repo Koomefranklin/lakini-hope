@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="grid min-h-screen p-4">
+    <main className="grid min-h-screen p-4 w-full">
       <div className='w-full relative'>
         <Image src='/poster.jpg' className='object-contain'/>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
@@ -35,14 +35,14 @@ In exercitation veniam eiusmod reprehenderit voluptate reprehenderit ex do tempo
               <label htmlFor='surname'>Surname</label>
               <input type='text' name='surname' id='surname'/>
             </div>
-          </div>
-          <div>
-            <label htmlFor='email'>Email</label>
-            <input type='email' name='email' id='email'/>
-          </div>
-          <div>
-            <label htmlFor='phone'>Phone</label>
-            <input type='number' name='phone' id='phone'/>
+            <div>
+              <label htmlFor='email'>Email</label>
+              <input type='email' name='email' id='email'/>
+            </div>
+            <div>
+              <label htmlFor='phone'>Phone</label>
+              <input type='number' name='phone' id='phone'/>
+            </div>
           </div>
           <label htmlFor='desc'>Message</label>
           <textarea name='desc' id='desc'/>
