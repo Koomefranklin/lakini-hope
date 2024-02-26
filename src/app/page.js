@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="grid min-h-screen w-full">
       <div className='w-full relative min-h-lvh'>
-        <Image src='/poster.jpg' fill={true} className='object-contain'/>
+        <video className='mx-auto object-contain w-full' poster='/poster.jpg' autoPlay loop playsInline muted><source src='/hero1.mp4' type='video/mp4'/></video>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
           <div className='absolute top-0 left-0 place-content-center w-full p-4 grid text-white h-full'>
             <div>
